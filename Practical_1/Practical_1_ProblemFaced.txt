@@ -1,0 +1,11 @@
+Problem 1
+
+At first, I couldn't visualize how the array changes after every rotation. After tracing the array on paper, the logic became much easier to understand.
+
+Problem 2
+
+My main confusion was avoiding the same duplicate value being printed again and again. I had to carefully think about the loop conditions before the code worked correctly.
+
+Problem 3
+
+I found it tricky to identify each word from the sentence and compare their lengths. After a few dry runs, I was able to build the logic correctly.
