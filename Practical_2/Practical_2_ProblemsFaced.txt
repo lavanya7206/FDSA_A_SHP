@@ -1,0 +1,7 @@
+Problem 1
+
+While writing the code, I had to be careful with the return statements and base condition in the recursive function. A few small mistakes in the function calls helped me understand recursion more clearly.
+
+Problem 2
+
+I found it a little confusing to update the start and last variables correctly after comparing the middle element. Debugging these small logic errors helped me understand how binary search actually works.
