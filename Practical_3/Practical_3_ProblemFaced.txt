@@ -1,7 +1,3 @@
 Problem 1 (Bubble, Selection & Insertion Sort)
 
 While solving this problem, I initially found it difficult to understand the difference between the three sorting algorithms. I also made a few mistakes with loop conditions and swapping elements, but after practicing I understood how each algorithm works.
-
-Problem 2 (Dutch National Flag Algorithm)
-
-This problem was challenging because I had to understand how the low, mid, and high pointers work together to sort the array without using extra space. After tracing the algorithm with sample inputs, I was able to implement it correctly and gained a better understanding of sorting.
