@@ -1,3 +1,7 @@
 Problem 1 (Bubble, Selection & Insertion Sort)
 
 While solving this problem, I initially found it difficult to understand the difference between the three sorting algorithms. I also made a few mistakes with loop conditions and swapping elements, but after practicing I understood how each algorithm works.
+
+Problem 2 (Counting Sort)
+
+While doing Counting Sort for the first time, I initially found it a little confusing to understand how the count array works and how it keeps track of the number of 0s, 1s, and 2s. I also made some mistakes while updating the index and decreasing the count values. At first, I was not sure how the original array could be sorted without creating another array.
