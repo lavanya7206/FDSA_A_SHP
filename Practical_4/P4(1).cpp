@@ -2,48 +2,87 @@
 using namespace std;
 struct Node
 {
-    int token;
-    Node* next;
+    int data;
+    Node *next;
+    Node *prev;
 };
-void insertFront(Node*& head,int value)
+Node *front=NULL;
+Node *rear=NULL;
+void insertFront(int x)
 {
-    Node* newNode = new Node;
-    newNode->token=value;
-    newNode->next=head;
-    head=newNode;
-}
-void insertEnd(Node*& head, int value)
-{
-    Node* newNode = new Node;
-    newNode->token=value;
-    newNode->next=NULL;
-    if(head==NULL)
+    Node *newNode=new Node;
+    newNode->data=x;
+    newNode->prev=NULL;
+    newNode->next=front;
+    if (front==NULL)
+        front=rear=newNode;
+    else
     {
-        head=newNode;
+        front->prev=newNode;
+        front=newNode;
+    }
+}
+void insertRear(int x)
+{
+    Node *newNode=new Node;
+    newNode->data=x;
+    newNode->next=NULL;
+    newNode->prev=rear;
+    if (rear==NULL)
+        front=rear=newNode;
+    else
+    {
+        rear->next=newNode;
+        rear=newNode;
+    }
+}
+void insertPosition(int x,int pos)
+{
+    if (pos==1)
+    {
+        insertFront(x);
         return;
     }
-    Node*temp=head;
-    while(temp->!=NULL)
-    {
+    Node *temp=front;
+    for (int i=1;i <pos-1 && temp!=NULL;i++)
         temp=temp->next;
+    if (temp==NULL)
+    {
+        cout<<"Invalid position"<<endl;
+        return;
     }
+    Node *newNode=new Node;
+    newNode->data=x;
+    newNode->next=temp->next;
+    newNode->prev=temp;
+    if (temp->next!=NULL)
+        temp->next->prev=newNode;
+    else
+        rear=newNode;
     temp->next=newNode;
 }
-void insertPosition(Node*& head,int value,int position)
+void display()
 {
-    if(position==1)
+    Node *temp=front;
+    while (temp!=NULL)
     {
-        insertFront(head,value);
-        return;
-    }
-    Node*temp=head;
-    for(i=1;i<position-1 && temp!=NULL;i++)
-    {
+        cout<<temp->data<<" ";
         temp=temp->next;
     }
-    if(temp==NULL)
-    {
-        cout<<"Invalid Position!";
-        return;
-    }
+    cout<<endl;
+}
+int main()
+{
+    insertRear(10);
+    insertRear(20);
+    insertRear(30);
+    cout<<"After rear insertion:";
+    display();
+    insertFront(5);
+    cout<<"After front insertion:";
+    display();
+    insertPosition(15,3);
+    cout<<"After position insertion:";
+    display();
+    return 0;
 }
