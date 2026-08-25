@@ -1,0 +1,7 @@
+Problem 1
+
+I initially found it difficult to understand how to insert a new node at a specific position because I had to manage both next and prev. I was also confused about what to do when the given position was greater than the queue length.
+
+Problem 2
+
+I found deletion by value a little confusing because deleting a node requires changing the links of the previous and next nodes. I also had difficulty understanding reverse printing.
