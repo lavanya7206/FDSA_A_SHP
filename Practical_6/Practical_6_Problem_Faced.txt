@@ -1,0 +1,11 @@
+Problem 1
+
+I faced some difficulty in understanding how to check whether the stack was full or empty. I initially got confused about the correct value of top before performing push and pop operations.
+
+Problem 2
+
+I faced difficulty in understanding how a linked list stack can grow without a fixed size. I also had some confusion about handling the back operation when there was no previous page left.
+
+Problem 3
+
+I faced difficulty in understanding how operators and brackets should be handled using the stack. I initially got confused about when to push operators and when to pop them while converting the expression to postfix.
