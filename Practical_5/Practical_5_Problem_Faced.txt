@@ -1,0 +1,8 @@
+Problem 1
+
+I faced difficulty while deleting the first node of the doubly linked list. I initially forgot to update the prev pointer of the new first node, which caused it to still point to the deleted node.
+
+Problem 2
+
+I faced difficulty in stopping the traversal of the circular linked list. I was confused about when to stop because there is no NULL at the end, which could cause an infinite loop.
+
