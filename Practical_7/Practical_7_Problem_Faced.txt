@@ -1,0 +1,8 @@
+Problem 1
+
+I initially found it difficult to understand how the front and rear pointers move in a queue. I also had confusion about why the queue becomes full even when some spaces at the front are empty.
+
+Problem 2
+
+As a beginner, I had difficulty understanding how to handle the queue when it becomes empty after multiple attend operations. I was confused about when the rear pointer should also be set to null.
+
