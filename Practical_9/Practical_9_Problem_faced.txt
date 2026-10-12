@@ -1,0 +1,3 @@
+Problem 1
+
+As a beginner, I faced difficulty understanding the difference between DFS and BFS traversal and how they visit buildings in a graph. I found it challenging to understand recursion in DFS and the use of a queue in BFS. I also struggled with tracking visited buildings to avoid repetition and understanding how both traversal methods produce different visiting orders.
