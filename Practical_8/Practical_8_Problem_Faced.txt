@@ -1,0 +1,5 @@
+Problem 1
+Initially, I found it difficult to understand the difference between inorder, preorder, and postorder traversal. I was confused about how recursive function calls move between the left and right subtrees. I found level-order traversal difficult to understand because it uses a queue instead of recursion.
+
+Problem 2
+Initially, I found it difficult to understand how to insert new values at the correct position in a Binary Search Tree. I was confused about when to move to the left or right subtree while inserting a value. I found it challenging to
