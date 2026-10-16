@@ -1,0 +1,11 @@
+Problem 1
+
+I found it difficult to understand what to do when a parking slot was already occupied. I also got confused about how to move to the next slot and return to slot 0 when the lot was full.
+
+Problem 2
+
+I found it difficult to store multiple book codes on the same shelf without overwriting them. I also had to understand how to count the books on each shelf and display them properly.
+
+Problem 3
+
+I found it difficult to understand how the second hash function decides the jump size when a collision occurs. I also got confused while calculating the next slot and making sure the program did not get stuck in an infinite loop.
